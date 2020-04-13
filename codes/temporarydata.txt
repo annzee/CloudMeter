@@ -1,0 +1,32 @@
+规格
+vCPU
+内存 （GB）
+网络 收发包 (pps)
+队列数
+内网 带宽能力 （Gbps）
+主频
+备注
+IT3.4XLARGE64
+16
+64
+150万
+4
+6
+2.5GHz
+1 × 3720GB 本地 NVMe SSD 硬盘
+IT3.8XLARGE128
+32
+128
+250万
+8
+12
+2.5GHz
+2 × 3720GB 本地 NVMe SSD 硬盘
+IT3.16XLARGE256
+64
+256
+500万
+16
+23
+2.5GHz
+4 × 3720GB 本地 NVMe SSD 硬盘

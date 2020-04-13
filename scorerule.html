@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评分规则</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <!-- Collapsed navigation -->
+            <div class="navbar-header">
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Main title -->
+                <a class="navbar-brand" href="meter.html">云服务评分</a>
+            </div>
+            <!-- Expanded navigation -->
+            <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="scorerule.html">评分规则</a>
+                    </li>
+                    <li>
+                        <a href="bench.html">云服务评测</a>
+                    </li>
+                    <li>
+                        <a data-toggle="modal" data-target="#addModal">机器学习推荐</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Contributing</a>
+                            </li>
+                            <li>
+                                <a href="#">Team</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Search, Navigation and Repo links -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-github"></i>
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container main">
+        <section class="main-container icons-page">
+            <div class="container">
+                <div class="row">
+                    <div class="main col-md-9">
+                        <h1 class="page-title">评分规则</h1>
+                        <div id="header-1">
+                            <h3 class="page-header"></h3>
+                            <p>我们对阿里云、腾讯云、UCloud按量付费的实例进行评测，得到评分结果，以此为依据进行推荐。</p>
+                            <p>由于实例类型种类繁多，我们选取了有代表性的3种类型，9种实例进行持续的评测，将这几种实例的评测结果推广到其他实例上，得到其他实例的评分。</p>
+                            <p>评测每周进行一次，每次评测选择不同的地域，在四个不同地域中进行评测。如下图：</p>
+                            <img style="width: 70%;" src="img/regions.png">
+                            <p>评测结果见云服务评分页面。</p>
+                        </div>
+                        <div id="header-2">
+                            <h3 class="page-header">评测实例选取</h3>
+                            <p>对于阿里云和腾讯云，我们在常用的通用型/标准型，计算优化型和内存优化型三种类型种各选择一种；对于UCloud，选择相同vCPU和内存的实例。最新一次评测实例选取如下：</p>
+                            <img style="width: 70%;" src="img/instances.png">
+                            <p>通用型/标准型的vCPU内存比为1:4，计算优化型为1:2，内存优化型为1:8。每次评测选择同一类型中不同配置大小的实例，但在一次评测中，三个云厂商的评测类型vCPU和内存对应相同，以便在不同厂商间进行对比。</p>
+                        </div>
+                        <div id="header-3">
+                            <h3 class="page-header">评测指标和评分计算</h3>
+                            <p>目前，我们选择了五个维度的评测指标来衡量一个实例的性能，并分别进行评分。分别是CPU性能、内存性能、磁盘性能、网络性能和启动时间。对于每一个指标，设定一个基准性能参数，评测实例的分数就是该实例的评测结果与设定的基准性能参数的比值。基准性能参数的设置使得分数在100分左右。
+                            </p>
+                            <p>总评分即是各个指标评分的加和。</p>
+                        </div>
+                        <div id="header-4">
+                            <h3 class="page-header">评测程序</h3>
+                            <p>我们使用sysbench评测实例的CPU、内存和磁盘性能，使用netperf评测实例的网络性能。可前往云服务评测页面了解具体情况。</p>
+                        </div>
+                        <div id="header-5">
+                            <h3 class="page-header">评分推广</h3>
+                            <p>我们在通用型、计算型、内存型三种类型的所有按量付费实例上使用Unixbench进行评测，通过评测结果探索在同一类型中实例性能与配置大小的关系。</p>
+                            <p>经过实验，我们发现，在同一类型中，实例性能与配置大小呈线性关系，即实例性能会随着配置增大而增强，只是线性关系的斜率系数不同。</p>
+                            <p>实验结果具体如下面几幅图所示，score1为单进程的得分，用来衡量单个CPU的性能，score2为根据CPU数目的多进程的得分，用来衡量整体的CPU性能（横坐标表示实例配置，纵坐标为unixbench的分数）：</p>
+                            <img style="width: 49%;" src="img/ecsg6.png">
+                            <img style="width: 49%;" src="img/ecsc6.png">
+                            <img style="width: 49%;" src="img/ecsr6.png"> <br />
+                            <p style="margin-top: 10px;">上面三幅图分别是阿里云通用型、计算型和内存型的评测结果，线性关系很明显。</p>
+                            <img style="width: 49%;" src="img/s5.png">
+                            <img style="width: 49%;" src="img/c3.png">
+                            <img style="width: 49%;" src="img/m5.png"> <br />
+                            <p style="margin-top: 10px;">上面三幅图分别是腾讯云标准型、计算型和内存型的评测结果，腾讯云实例性能和配置大小的关系虽然不是较为完美的线性，可以发现当CPU数或内存较大时，性能的增加会有所下降，但是在配置较小时，线性关系是成立的。</p>
+                            <img style="width: 98%;" src="img/ucloudall.png">
+                            <p style="margin-top: 10px;">由于UCloud并没有区分类型，所以就按照与阿里云、腾讯云相同的vCPU内存比例来选取相应实例进行评测，得分随vCPU增加呈线性提升。</p>
+                            <p>由此可以很清楚的发现实例性能和配置大小间的线性关系。前面提到每次评测在常用的通用型/标准型，计算优化型和内存优化型三种类型种各选择一种。至于这些类型中的其他实例的评分，是通过线性推广而来。</p>
+                            <p>至于这3中类型中的其他实例，因为我们只关注按量付费的情况，所以就不予评测。至于其他类型，由于各种原因，暂时不进行评测。</p>
+                        </div>
+                    </div>
+                    <aside class="col-md-3">
+                        <div class="sidebar">
+                            <nav class="affix-menu scrollspy">
+                                <ul class="smooth-scroll nav nav-pills nav-stacked">
+                                    <li class="active">
+                                        <a href="#header-1">总览</a>
+                                    </li>
+                                    <li>
+                                        <a href="#header-2">评测实例选取</a>
+                                    </li>
+                                    <li>
+                                        <a href="#header-3">评测指标和评分计算</a>
+                                    </li>
+                                    <li>
+                                        <a href="#header-4">评测程序</a>
+                                    </li>
+                                    <li>
+                                        <a href="#header-5">评分推广</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer style="margin-bottom: 5px;">
+        <hr>
+        <center>&#169; Unias Team, SEI, PKU</center>
+        <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+    </footer>
+</body>
+
+</html>

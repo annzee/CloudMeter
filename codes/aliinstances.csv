@@ -1,0 +1,89 @@
+﻿规格族,实例规格,vCPU,内存,处理器主频/睿频,内网带宽,内网收发包,IPv6,参考价格,处理器规格,实例本地存储,平均基准CPU计算性能
+通用型 g6,ecs.g6.large,2 vCPU,8 GiB,2.5 GHz/3.2 GHz,1 Gbps,30 万 PPS,是,0.5,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g6,ecs.g6.xlarge,4 vCPU,16 GiB,2.5 GHz/3.2 GHz,1.5 Gbps,50 万 PPS,是,1,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g6,ecs.g6.2xlarge,8 vCPU,32 GiB,2.5 GHz/3.2 GHz,2.5 Gbps,80 万 PPS,是,2,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g6,ecs.g6.3xlarge,12 vCPU,48 GiB,2.5 GHz/3.2 GHz,4 Gbps,90 万 PPS,是,3,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g5,ecs.g5.large,2 vCPU,8 GiB,2.5 GHz/2.7 GHz,1 Gbps,30 万 PPS,是,0.89,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g5,ecs.g5.xlarge,4 vCPU,16 GiB,2.5 GHz/2.7 GHz,1.5 Gbps,50 万 PPS,是,1.77,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g5,ecs.g5.2xlarge,8 vCPU,32 GiB,2.5 GHz/2.7 GHz,2.5 Gbps,80 万 PPS,是,3.54,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+通用型 g5,ecs.g5.3xlarge,12 vCPU,48 GiB,2.5 GHz/2.7 GHz,4 Gbps,90 万 PPS,是,5.31,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c6,ecs.c6.large,2 vCPU,4 GiB,2.5 GHz/3.2 GHz,1 Gbps,30 万 PPS,是,0.39,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c6,ecs.c6.xlarge,4 vCPU,8 GiB,2.5 GHz/3.2 GHz,1.5 Gbps,50 万 PPS,是,0.78,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c6,ecs.c6.2xlarge,8 vCPU,16 GiB,2.5 GHz/3.2 GHz,2.5 Gbps,80 万 PPS,是,1.56,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c6,ecs.c6.3xlarge,12 vCPU,24 GiB,2.5 GHz/3.2 GHz,4 Gbps,90 万 PPS,是,2.34,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c5,ecs.c5.large,2 vCPU,4 GiB,2.5 GHz/2.7 GHz,1 Gbps,30 万 PPS,是,0.62,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c5,ecs.c5.xlarge,4 vCPU,8 GiB,2.5 GHz/2.7 GHz,1.5 Gbps,50 万 PPS,是,1.24,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c5,ecs.c5.2xlarge,8 vCPU,16 GiB,2.5 GHz/2.7 GHz,2.5 Gbps,80 万 PPS,是,2.49,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+计算型 c5,ecs.c5.3xlarge,12 vCPU,24 GiB,2.5 GHz/2.7 GHz,4 Gbps,90 万 PPS,是,3.73,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+密集计算型 ic5,ecs.ic5.large,2 vCPU,2 GiB,2.5 GHz/2.7 GHz,1 Gbps,30 万 PPS,否,0.59,Intel Xeon(Skylake) Platinum 8163,,
+密集计算型 ic5,ecs.ic5.xlarge,4 vCPU,4 GiB,2.5 GHz/2.7 GHz,1.5 Gbps,50 万 PPS,否,1.18,Intel Xeon(Skylake) Platinum 8163,,
+密集计算型 ic5,ecs.ic5.2xlarge,8 vCPU,8 GiB,2.5 GHz/2.7 GHz,2.5 Gbps,80 万 PPS,否,2.36,Intel Xeon(Skylake) Platinum 8163,,
+密集计算型 ic5,ecs.ic5.3xlarge,12 vCPU,12 GiB,2.5 GHz/2.7 GHz,4 Gbps,90 万 PPS,否,3.54,Intel Xeon(Skylake) Platinum 8163,,
+内存型 r6,ecs.r6.large,2 vCPU,16 GiB,2.5 GHz/3.2 GHz,1 Gbps,30 万 PPS,是,0.66,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r6,ecs.r6.xlarge,4 vCPU,32 GiB,2.5 GHz/3.2 GHz,1.5 Gbps,50 万 PPS,是,1.33,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r6,ecs.r6.2xlarge,8 vCPU,64 GiB,2.5 GHz/3.2 GHz,2.5 Gbps,80 万 PPS,是,2.65,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r6,ecs.r6.3xlarge,12 vCPU,96 GiB,2.5 GHz/3.2 GHz,4 Gbps,90 万 PPS,是,3.98,Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r5,ecs.r5.large,2 vCPU,16 GiB,2.5 GHz/2.7 GHz,1 Gbps,30 万 PPS,是,1.13,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r5,ecs.r5.xlarge,4 vCPU,32 GiB,2.5 GHz/2.7 GHz,1.5 Gbps,50 万 PPS,是,2.26,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r5,ecs.r5.2xlarge,8 vCPU,64 GiB,2.5 GHz/2.7 GHz,2.5 Gbps,80 万 PPS,是,4.53,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+内存型 r5 ,ecs.r5.3xlarge,12 vCPU,96 GiB,2.5 GHz/2.7 GHz,4 Gbps,90 万 PPS,是,6.79,Intel Xeon(Skylake) Platinum 8163 / Intel Xeon(Cascade Lake) Platinum 8269CY,,
+大数据网络增强型 d1ne,ecs.d1ne.2xlarge,8 vCPU,32 GiB,2.5 GHz,6 Gbps,100 万 PPS,是,6.68,Intel Xeon E5-2682v4,4 * 5500 GiB,
+大数据型 d1,ecs.d1.2xlarge,8 vCPU,32 GiB,2.5 GHz,3 Gbps,30 万 PPS,否,6.36,Intel Xeon E5-2682v4,4 * 5500 GiB,
+大数据型 d1,ecs.d1.3xlarge,12 vCPU,48 GiB,2.5 GHz,4 Gbps,40 万 PPS,否,9.547,Intel Xeon E5-2682v4,6 * 5500 GiB,
+大数据型 d1,ecs.d1.4xlarge,16 vCPU,64 GiB,2.5 GHz,6 Gbps,60 万 PPS,否,12.73,Intel Xeon E5-2682v4,8 * 5500 GiB,
+本地SSD型 i2g,ecs.i2g.2xlarge,8 vCPU,32 GiB,2.5 GHz/2.7 GHz,2 Gbps,100 万 PPS,否,3.073,Intel Xeon(Skylake) Platinum 8163,1 * 894 GiB,
+本地SSD型 i2,ecs.i2.xlarge,4 vCPU,32 GiB,2.5 GHz/2.7 GHz,1 Gbps,50 万 PPS,是,1.88,Intel Xeon(Skylake) Platinum 8163,1 * 894 GiB,
+本地SSD型 i2,ecs.i2.2xlarge,8 vCPU,64 GiB,2.5 GHz/2.7 GHz,2 Gbps,100 万 PPS,是,3.77,Intel Xeon(Skylake) Platinum 8163,1 * 1788 GiB,
+本地SSD型 i1,ecs.i1.xlarge,4 vCPU,16 GiB,2.5 GHz,0.8 Gbps,20 万 PPS,否,2.94,Intel Xeon E5-2682v4,2 * 104 GiB,
+本地SSD型 i1,ecs.i1.2xlarge,8 vCPU,32 GiB,2.5 GHz,1.5 Gbps,40 万 PPS,否,5.89,Intel Xeon E5-2682v4,2 * 208 GiB,
+本地SSD型 i1,ecs.i1.3xlarge,12 vCPU,48 GiB,2.5 GHz,2 Gbps,40 万 PPS,否,6.76,Intel Xeon E5-2682v4,2 * 312 GiB,
+高主频通用型 hfg6,ecs.hfg6.large,2 vCPU,8 GiB,3.1 GHz/3.5 GHz,1 Gbps,30 万 PPS,是,0.55,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频通用型 hfg6,ecs.hfg6.xlarge,4 vCPU,16 GiB,3.1 GHz/3.5 GHz,1.5 Gbps,30 万 PPS,是,1.1,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频通用型 hfg6,ecs.hfg6.2xlarge,8 vCPU,32 GiB,3.1 GHz/3.5 GHz,2.5 Gbps,80 万 PPS,是,2.2,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频通用型 hfg6,ecs.hfg6.3xlarge,12 vCPU,48 GiB,3.1 GHz/3.5 GHz,4 Gbps,90 万 PPS,是,3.3,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频计算型 hfc6,ecs.hfc6.large,2 vCPU,4 GiB,3.1 GHz/3.5 GHz,1 Gbps,30 万 PPS,是,0.448,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频计算型 hfc6,ecs.hfc6.xlarge,4 vCPU,8 GiB,3.1 GHz/3.5 GHz,1.5 Gbps,50 万 PPS,是,0.896,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频计算型 hfc6,ecs.hfc6.2xlarge,8 vCPU,16 GiB,3.1 GHz/3.5 GHz,2.5 Gbps,80 万 PPS,是,1.792,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频计算型 hfc6,ecs.hfc6.3xlarge,12 vCPU,24 GiB,3.1 GHz/3.5 GHz,4 Gbps,90 万 PPS,是,2.688,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频内存型 hfr6,ecs.hfr6.large,2 vCPU,16 GiB,3.1 GHz/3.5 GHz,1 Gbps,30 万 PPS,是,0.729,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频内存型 hfr6,ecs.hfr6.xlarge,4 vCPU,32 GiB,3.1 GHz/3.5 GHz,1.5 Gbps,30 万 PPS,是,1.458,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频内存型 hfr6,ecs.hfr6.2xlarge,8 vCPU,64 GiB,3.1 GHz/3.5 GHz,2.5 Gbps,80 万 PPS,是,2.917,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频内存型 hfr6,ecs.hfr6.3xlarge,12 vCPU,96 GiB,3.1 GHz/3.5 GHz,4 Gbps,90 万 PPS,是,4.375,Intel Xeon (Cascade Lake) Platinum 8269,,
+高主频通用型 hfg5,ecs.hfg5.large,2 vCPU,8 GiB,3.1 GHz/3.4 GHz,1 Gbps,30 万 PPS,否,1.15,Intel Xeon Gold 6149,,
+高主频通用型 hfg5,ecs.hfg5.xlarge,4 vCPU,16 GiB,3.1 GHz/3.4 GHz,1.5 Gbps,50 万 PPS,否,2.31,Intel Xeon Gold 6149,,
+高主频通用型 hfg5,ecs.hfg5.2xlarge,8 vCPU,32 GiB,3.1 GHz/3.4 GHz,2 Gbps,100 万 PPS,否,4.61,Intel Xeon Gold 6149,,
+高主频通用型 hfg5,ecs.hfg5.3xlarge,12 vCPU,48 GiB,3.1 GHz/3.4 GHz,2.5 Gbps,130 万 PPS,否,6.92,Intel Xeon Gold 6149,,
+高主频计算型 hfc5,ecs.hfc5.large,2 vCPU,4 GiB,3.1 GHz/3.4 GHz,1 Gbps,30 万 PPS,否,0.87,Intel Xeon Gold 6149,,
+高主频计算型 hfc5,ecs.hfc5.xlarge,4 vCPU,8 GiB,3.1 GHz/3.4 GHz,1.5 Gbps,50 万 PPS,否,1.74,Intel Xeon Gold 6149,,
+高主频计算型 hfc5,ecs.hfc5.2xlarge,8 vCPU,16 GiB,3.1 GHz/3.4 GHz,2 Gbps,100 万 PPS,否,3.49,Intel Xeon Gold 6149,,
+高主频计算型 hfc5 ,ecs.hfc5.3xlarge,12 vCPU,24 GiB,3.1 GHz/3.4 GHz,2.5 Gbps,130 万 PPS,否,5.23,Intel Xeon Gold 6149,,
+共享标准型 s6,ecs.s6-c1m1.small,1 vCPU,1 GiB,2.5 GHz/3.2 GHz,0.1 Gbps,15 万 PPS,是,0.115,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m2.small,1 vCPU,2 GiB,2.5 GHz/3.2 GHz,0.1 Gbps,15 万 PPS,是,0.208,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m4.small,1 vCPU,4 GiB,2.5 GHz/3.2 GHz,0.1 Gbps,15 万 PPS,是,0.312,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m2.large,2 vCPU,4 GiB,2.5 GHz/3.2 GHz,0.2 Gbps,20 万 PPS,是,0.417,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m4.large,2 vCPU,8 GiB,2.5 GHz/3.2 GHz,0.4 Gbps,20 万 PPS,是,0.625,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m2.xlarge,4 vCPU,8 GiB,2.5 GHz/3.2 GHz,0.4 Gbps,30 万 PPS,是,0.833,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m4.xlarge,4 vCPU,16 GiB,2.5 GHz/3.2 GHz,0.8 Gbps,30 万 PPS,是,1.25,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m2.2xlarge,8 vCPU,16 GiB,2.5 GHz/3.2 GHz,0.8 Gbps,60 万 PPS,是,1.667,Intel(R) Xeon(R) Platinum 8269CY,,
+共享标准型 s6,ecs.s6-c1m4.2xlarge,8 vCPU,32 GiB,2.5 GHz/3.2 GHz,1.2 Gbps,60 万 PPS,是,2.5,Intel(R) Xeon(R) Platinum 8269CY,,
+突发性能实例 t6,ecs.t6-c4m1.large,2 vCPU,0.5 GiB,2.5 GHz,0.08 Gbps,4 万 PPS,是,0.03,Intel(R) Xeon(R) Platinum 8269CY,,5%
+突发性能实例 t6,ecs.t6-c2m1.large,2 vCPU,1 GiB,2.5 GHz,0.08 Gbps,6 万 PPS,是,0.059,Intel(R) Xeon(R) Platinum 8269CY,,10%
+突发性能实例 t6,ecs.t6-c1m1.large,2 vCPU,2 GiB,2.5 GHz,0.08 Gbps,10 万 PPS,是,0.118,Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t6,ecs.t6-c1m2.large,2 vCPU,4 GiB,2.5 GHz,0.08 Gbps,10 万 PPS,是,0.236,Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t6,ecs.t6-c1m4.large,2 vCPU,8 GiB,2.5 GHz,0.08 Gbps,10 万 PPS,是,0.472,Intel(R) Xeon(R) Platinum 8269CY,,30%
+突发性能实例 t6,ecs.t6-c1m4.xlarge,4 vCPU,16 GiB,2.5 GHz,0.16 Gbps,20 万 PPS,是,0.944,Intel(R) Xeon(R) Platinum 8269CY,,40%
+突发性能实例 t6,ecs.t6-c1m4.2xlarge,8 vCPU,32 GiB,2.5 GHz,0.32 Gbps,40 万 PPS,是,1.889,Intel(R) Xeon(R) Platinum 8269CY,,40%
+突发性能实例 t5,ecs.t5-lc2m1.nano,1 vCPU,0.5 GiB,2.5 GHz,0.1 Gbps,4 万 PPS,是,0.063,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t5,ecs.t5-lc1m1.small,1 vCPU,1 GiB,2.5 GHz,0.2 Gbps,6 万 PPS,是,0.083,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t5,ecs.t5-lc1m2.small,1 vCPU,2 GiB,2.5 GHz,0.2 Gbps,6 万 PPS,是,0.167,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t5,ecs.t5-c1m1.large,2 vCPU,2 GiB,2.5 GHz,0.5 Gbps,10 万 PPS,是,0.29,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m2.large,2 vCPU,4 GiB,2.5 GHz,0.5 Gbps,10 万 PPS,是,0.4,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-lc1m2.large,2 vCPU,4 GiB,2.5 GHz,0.4 Gbps,10 万 PPS,是,0.333,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t5,ecs.t5-c1m4.large,2 vCPU,8 GiB,2.5 GHz,0.5 Gbps,10 万 PPS,是,0.63,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-lc1m4.large,2 vCPU,8 GiB,2.5 GHz,0.4 Gbps,10 万 PPS,是,0.55,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,20%
+突发性能实例 t5,ecs.t5-c1m1.xlarge,4 vCPU,4 GiB,2.5 GHz,0.8 Gbps,20 万 PPS,是,0.58,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m2.xlarge,4 vCPU,8 GiB,2.5 GHz,0.8 Gbps,20 万 PPS,是,0.8,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m4.xlarge,4 vCPU,16 GiB,2.5 GHz,0.8 Gbps,20 万 PPS,是,1.25,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m1.2xlarge,8 vCPU,8 GiB,2.5 GHz,1.2 Gbps,40 万 PPS,是,1.16,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m2.2xlarge,8 vCPU,16 GiB,2.5 GHz,1.2 Gbps,40 万 PPS,是,1.6,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
+突发性能实例 t5,ecs.t5-c1m4.2xlarge,8 vCPU,32 GiB,2.5 GHz,1.2 Gbps,40 万 PPS,是,2.5,Intel Xeon E5-2682v4 / Intel Xeon(Skylake) Platinum 8163 / Intel(R) Xeon(R) Platinum 8269CY,,25%
