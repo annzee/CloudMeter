@@ -210,6 +210,8 @@
                         picname = "ali.png";
                     } else if (item.factory == "腾讯云") {
                         picname = "ten.png";
+                    } else if (item.factory == "华为云") {
+                        picname = "hua.png";
                     } else {
                         picname = "ucl.png";
                     }
@@ -477,6 +479,8 @@
                 img.innerHTML = "<img src=\"img/ali.png\">";
             } else if (datas[0].factory == "腾讯云") {
                 img.innerHTML = "<img src=\"img/ten.png\">";
+            } else if (datas[0].factory == "华为云") {
+                img.innerHTML = "<img src=\"img/hua.png\">";
             } else {
                 img.innerHTML = "<img src=\"img/ucl.png\">";
             }
@@ -517,23 +521,23 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Main title -->
-                <a class="navbar-brand" href=".">云服务推荐</a>
+                <a class="navbar-brand" href="index.html">云服务推荐</a>
             </div>
             <!-- Expanded navigation -->
             <div class="navbar-collapse collapse">
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="dropdown">
-                        <a href="scorerule.html">评分规则</a>
+                        <a href="documents.html">评分规则</a>
                     </li>
                     <li>
-                        <a href="#">云服务评测</a>
+                        <a href="bench.html">云服务评测</a>
                     </li>
                     <li>
-                        <a href="#">机器学习推荐</a>
+                        <a href="ml.html">机器学习推荐</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
@@ -571,7 +575,7 @@
         <div class="jumbotron">
             <div class="container">
                 <h1>云服务评分</h1>
-                <p>对阿里云、腾讯云、uCloud上9种实例类型进行评测。</p>
+                <p>对阿里云、腾讯云、华为云、uCloud上多种常用实例类型进行评测。</p>
                 <p><a class="btn btn-primary btn-lg" role="button">
                         学习更多</a>
                 </p>
@@ -628,7 +632,7 @@
 
         <div id="chart1"></div>
     </div>
-
+ 
     <footer style="margin-bottom: 5px;">
         <hr>
         <center>&#169; Unias Team, SEI, PKU</center>

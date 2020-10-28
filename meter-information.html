@@ -261,23 +261,23 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Main title -->
-                <a class="navbar-brand" href=".">云服务推荐</a>
+                <a class="navbar-brand" href="index.html">云服务推荐</a>
             </div>
             <!-- Expanded navigation -->
             <div class="navbar-collapse collapse">
                 <!-- Main navigation -->
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="meter.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="dropdown">
-                        <a href="scorerule.html">评分规则</a>
+                        <a href="documents.html">评分规则</a>
                     </li>
                     <li>
-                        <a href="#">Examples</a>
+                        <a href="bench.html">云服务评测</a>
                     </li>
                     <li>
-                        <a href="#">Download</a>
+                        <a href="ml.html">机器学习推荐</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
@@ -331,7 +331,71 @@
     </div>
     <div id="chart3"></div>
     </div>
-
+<!--modal-->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">机器学习推荐</h4>
+            </div>
+            <div class="modal-body">
+                <form role="form" action="javascript:void(0)">
+                    <span style="margin-left: 20px">任务程序：</span>
+                    <input id="file" type="file" class="form-control"
+                        style="width: 220px; display: inline-block; margin-top: 10px; margin-bottom: 10px">
+                    <br />
+                    <span style="margin-left: 20px; margin-right: 13px">执行命令：</span>
+                    <input id="command" type="text" class="form-control"
+                        style="width: 220px; display: inline-block; margin-top: 10px; margin-bottom: 10px">
+                    <br />
+                    <span style="margin-left: 20px; margin-right: 13px">实例规格：</span>
+                    <select id="kind" class="selectpicker" data-size="6" multiple data-actions-box="true">
+                        <option value="ecs.g5.large">ecs.g5.large</option>
+                        <option value="ecs.g5.xlarge">ecs.g5.xlarge</option>
+                        <option value="ecs.g5.2xlarge">ecs.g5.2xlarge</option>
+                        <option value="ecs.g5.3xlarge">ecs.g5.3xlarge</option>
+                        <option value="ecs.c5.large">ecs.c5.large</option>
+                        <option value="ecs.c5.xlarge">ecs.c5.xlarge</option>
+                        <option value="ecs.c5.2xlarge">ecs.c5.2xlarge</option>
+                        <option value="ecs.c5.3xlarge">ecs.c5.3xlarge</option>
+                        <option value="ecs.r5.large">ecs.r5.large</option>
+                        <option value="ecs.r5.xlarge">ecs.r5.xlarge</option>
+                        <option value="ecs.r5.2xlarge">ecs.r5.2xlarge</option>
+                        <option value="ecs.r5.3xlarge">ecs.r5.3xlarge</option>
+                        <option value="ecs.d1ne.2xlarge">ecs.d1ne.2xlarge</option>
+                        <option value="ecs.i2g.2xlarge">ecs.i2g.2xlarge</option>
+                        <option value="ecs.i2.xlarge">ecs.i2.xlarge</option>
+                        <option value="ecs.i2.2xlarge">ecs.i2.2xlarge</option>
+                        <option value="ecs.hfg5.large">ecs.hfg5.large</option>
+                        <option value="ecs.hfg5.xlarge">ecs.hfg5.xlarge</option>
+                        <option value="ecs.hfg5.2xlarge">ecs.hfg5.2xlarge</option>
+                        <option value="ecs.hfg5.3xlarge">ecs.hfg5.3xlarge</option>
+                        <option value="ecs.hfc5.large">ecs.hfc5.large</option>
+                        <option value="ecs.hfc5.xlarge">ecs.hfc5.xlarge</option>
+                        <option value="ecs.hfc5.2xlarge">ecs.hfc5.2xlarge</option>
+                        <option value="ecs.hfc5.3xlarge">ecs.hfc5.3xlarge</option>
+                    </select>
+                    <br />
+                    <span style="margin-left: 20px; margin-right: 13px">性能成本目标：</span>
+                    <select id="supplier" class="selectpicker">
+                        <option value="1">性能最好</option>
+                        <option value="2">成本最低</option>
+                        <option value="3">其他</option>
+                    </select>
+                    <br />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="addRecord"
+                    onclick="alert('请在我的评测中查看结果'); ">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
     <footer style="margin-bottom: 5px;">
         <hr>
         <center>&#169; Unias Team, SEI, PKU</center>
